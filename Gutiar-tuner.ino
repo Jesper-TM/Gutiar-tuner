@@ -10,7 +10,7 @@ Date: 2025-12-19
 Authours: Arvid Melberg, Jesper Treutiger Milén 
 
 About:
-The projct is a piano tuner that, by an Arduino module can show how wrongly tuned a guitar string is.
+The projct is a guitar tuner that, by an Arduino module can show how wrongly tuned a guitar string is.
 The module consists of 3 main components, an electret condenser microphone, LED-display and a LED-ring. When 
 a button is preseed the program analyses the singal from the microphone and sets a pre defined target-string,
 depending on which string is played on the guitar. A band-pass filter is then applied around the target string
