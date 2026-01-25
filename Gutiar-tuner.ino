@@ -6,17 +6,17 @@
 
 /*
 Project: Guitar tuner 
-Date: 2025-12-19
+Date: 2025-10-19
 Authours: Arvid Melberg, Jesper Treutiger Milén 
 
 About:
-The projct is a guitar tuner that, by an Arduino module can show how wrongly tuned a guitar string is.
-The module consists of 3 main components, an electret condenser microphone, LED-display and a LED-ring. When 
-a button is preseed the program analyses the singal from the microphone and sets a pre defined target-string,
-depending on which string is played on the guitar. A band-pass filter is then applied around the target string
-in order to remove unessecary frequencies. Depending on how off-tune the guitar string is, an error is 
-calculated. The target sting and error is displayd on the LED-screen. The LED-ring shows the error with light 
-indicators which makes the tuner easier to use at a longer distance. 
+The project is a piano tuner that uses an Arduino module to indicate how out of tune a guitar string is.
+The module consists of three main components: an electret condenser microphone, an LED display, and an 
+LED ring. When a button is pressed, the program analyzes the signal from the microphone and sets a predefined 
+target string based on which guitar string is being played. A band-pass filter is then applied around the 
+target frequency to remove unnecessary noise. The system calculates the tuning error and displays both the 
+target string and the error on the LED screen. The LED ring provides a visual indication of the error, 
+making the tuner easier to use from a distance.
 */
 
 #define SCREEN_WIDTH 128
